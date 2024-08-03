@@ -1,5 +1,0 @@
-FROM mysql
-WORKDIR /db
-ENV MYSQL_ALLOW_EMPTY_PASSWORD = yes 
-EXPOSE 3306
-CMD ["mysqld"]
